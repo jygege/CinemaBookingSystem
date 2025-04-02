@@ -1,0 +1,123 @@
+'''
+#test case 1
+Please define movie title and seating map in [Title] [Row] [SeatsPerRow] format:
+> Forest 10 20
+
+Welcome to GIC Cinemas
+[1] Book tickets for Forest (200 seats available)
+[2] Check bookings
+[3] Exit
+Please enter your selection:
+> 1
+
+Enter the number of tickets to book, or enter blank to go back to main menu:
+> 2
+
+Successfully reserved 2 Forest tickets.
+
+Booking ID: GIC00001
+Selected seats:
+                         S C R E E N                         
+------------------------------------------------------------
+J  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+I  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+H  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+G  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+F  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+E  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+D  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+C  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+B  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+A  .  .  .  .  .  .  .  .  .  O  O  .  .  .  .  .  .  .  .  .
+   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20
+
+Enter blank to accept seat selection, or enter new seating position: 
+
+Booking id:  GIC00001 confirmed.
+
+
+#test case 2
+Welcome to GIC Cinemas
+[1] Book tickets for Forest (198 seats available)
+[2] Check bookings
+[3] Exit
+Please enter your selection:
+> 1
+
+Enter the number of tickets to book, or enter blank to go back to main menu:
+> 27
+
+Successfully reserved 27 Forest tickets.
+
+Booking ID: GIC00002
+Selected seats:
+                         S C R E E N                         
+------------------------------------------------------------
+J  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+I  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+H  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+G  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+F  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+E  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+D  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+C  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+B  .  .  .  .  .  O  O  O  O  O  O  O  O  O  .  .  .  .  .  .
+A  O  O  O  O  O  O  O  O  O  #  #  O  O  O  O  O  O  O  O  O
+   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20
+
+Enter blank to accept seat selection, or enter new seating position: F2
+Booking 27 tickets from custom starting position...
+
+Successfully reserved 27 Forest tickets.
+
+Booking ID: GIC00002
+Selected seats:
+                         S C R E E N                         
+------------------------------------------------------------
+J  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+I  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+H  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+G  O  O  O  O  O  O  O  O  .  .  .  .  .  .  .  .  .  .  .  .
+F  .  O  O  O  O  O  O  O  O  O  O  O  O  O  O  O  O  O  O  O
+E  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+D  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+C  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+B  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+A  .  .  .  .  .  .  .  .  .  #  #  .  .  .  .  .  .  .  .  .
+   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20
+
+Enter blank to accept seat selection, or enter new seating position: 
+
+Booking id:  GIC00002 confirmed.
+
+#test case 3
+Welcome to GIC Cinemas
+[1] Book tickets for Forest (171 seats available)
+[2] Check bookings
+[3] Exit
+Please enter your selection:
+> 2
+Enter booking id, or enter blank to go back to main menu:
+> GIC00001
+
+Booking ID: GIC00001
+Selected seats:
+                         S C R E E N                         
+------------------------------------------------------------
+J  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+I  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+H  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+G  #  #  #  #  #  #  #  #  .  .  .  .  .  .  .  .  .  .  .  .
+F  .  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #
+E  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+D  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+C  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+B  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+A  .  .  .  .  .  .  .  .  .  O  O  .  .  .  .  .  .  .  .  .
+   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20
+
+Welcome to GIC Cinemas
+[1] Book tickets for Forest (171 seats available)
+[2] Check bookings
+[3] Exit
+'''
